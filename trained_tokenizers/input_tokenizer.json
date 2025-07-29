@@ -1,0 +1,88 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": {
+    "strategy": "BatchLongest",
+    "direction": "Right",
+    "pad_to_multiple_of": null,
+    "pad_id": 0,
+    "pad_type_id": 0,
+    "pad_token": "[PAD]"
+  },
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "[UNK]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "Split",
+    "pattern": {
+      "String": ""
+    },
+    "behavior": "Isolated",
+    "invert": false
+  },
+  "post_processor": null,
+  "decoder": null,
+  "model": {
+    "type": "WordLevel",
+    "vocab": {
+      "[UNK]": 0,
+      "L": 1,
+      "A": 2,
+      "G": 3,
+      "V": 4,
+      "E": 5,
+      "S": 6,
+      "D": 7,
+      "K": 8,
+      "I": 9,
+      "T": 10,
+      "R": 11,
+      "P": 12,
+      "N": 13,
+      "F": 14,
+      "Q": 15,
+      "Y": 16,
+      "H": 17,
+      "M": 18,
+      "W": 19,
+      "C": 20,
+      "X": 21,
+      "a": 22,
+      "b": 23,
+      "c": 24,
+      "d": 25,
+      "e": 26,
+      "f": 27,
+      "g": 28,
+      "h": 29,
+      "i": 30,
+      "j": 31,
+      "l": 32,
+      "k": 33,
+      "m": 34,
+      "n": 35,
+      "o": 36,
+      "p": 37,
+      "q": 38,
+      "r": 39,
+      "s": 40,
+      "t": 41,
+      "u": 42,
+      "v": 43,
+      "w": 44,
+      "x": 45,
+      "y": 46,
+      "z": 47
+    },
+    "unk_token": "[UNK]"
+  }
+}
