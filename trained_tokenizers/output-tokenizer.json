@@ -1,6 +1,11 @@
 {
   "version": "1.0",
-  "truncation": null,
+  "truncation": {
+    "direction": "Right",
+    "max_length": 500,
+    "strategy": "LongestFirst",
+    "stride": 0
+  },
   "padding": {
     "strategy": "BatchLongest",
     "direction": "Right",
