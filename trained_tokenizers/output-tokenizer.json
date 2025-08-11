@@ -25,7 +25,9 @@
       "special": true
     }
   ],
-  "normalizer": null,
+  "normalizer": {
+    "type": "Lowercase"
+  },
   "pre_tokenizer": {
     "type": "Split",
     "pattern": {
@@ -40,15 +42,15 @@
     "type": "WordLevel",
     "vocab": {
       "[UNK]": 0,
-      "H": 1,
-      "E": 2,
-      "C": 3,
-      "T": 4,
-      "S": 5,
-      "G": 6,
-      "P": 7,
-      "B": 8,
-      "I": 9
+      "h": 1,
+      "e": 2,
+      "c": 3,
+      "t": 4,
+      "s": 5,
+      "g": 6,
+      "p": 7,
+      "b": 8,
+      "i": 9
     },
     "unk_token": "[UNK]"
   }
